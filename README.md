@@ -1,7 +1,10 @@
 ## [TFV] TradeFromVehicle  
 ### Version 2.0
-#### Based on Csus original ver 2 file. 90% of the work is his so all credits to him please. I have just modded for Coins and ConfigTrader plus a little TAX :-), 
+####  
 > http://epochmod.com/forum/index.php?/topic/11931-release-tradefromvehicle-version-20-is-here/
+
+**Credits**:
+Based on Csus original trade from vehicle version 2. 90% of the work is his so all credits to him please. I have just modded for Coins and ConfigTrader plus a little TAX :-),
 
 **Requirements**:
 
