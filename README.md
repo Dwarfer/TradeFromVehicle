@@ -29,9 +29,13 @@ Installation -
 
 Put these files into your mission PBO.
 Open up your 'init.sqf' file and find this line of code, around line 75 - 
+
 	if (!isDedicated) then {
+
 Place the following line of code just below that -
+
 	ExecVM "TradeFromVehicle Version 2.0\setup\init.sqf";
+
 
 Setup -
     Head into the setup folder and open up the init.sqf.
