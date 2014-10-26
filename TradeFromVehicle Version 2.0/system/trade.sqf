@@ -314,7 +314,7 @@ if (_success) then {
 		};	
 	};
 	
-	if(TFV_COINS){
+	if(TFV_COINS) then {
 		_payment = [_tradeValueInt,_object] call TFV_returnChangeCoins;
 	}else{
 		_payment = [_tradeValueInt,_object] call TFV_returnChange;
