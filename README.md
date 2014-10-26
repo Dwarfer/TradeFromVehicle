@@ -55,5 +55,5 @@ Setup -
 	TFV_TAXFVT = "25"; // Dispay Tax Veichle (lazy code TBH)
 	TFV_TAXFB= 0.85; // Tax From Backpack 15%
 	TFV_TAXFBT= "15"; // Dispay Tax Backpack (lazy code TBH)
-    
-    
+
+If you have DZE_ConfigTrader enabled this will automaticlaly work. *hopefully* 
