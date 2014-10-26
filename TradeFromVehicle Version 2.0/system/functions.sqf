@@ -207,9 +207,9 @@ TFV_returnChangeCoins =
 	_object = _this select 1;
 	if(TFV_TAX) then {
 		if (_object == "vehicle") then {
-			if(TFV_TAXFV) then { _amount = _amount * TFV_TAXFV; };
+			_amount = _amount * TFV_TAXFV;
 		}else{
-			if(TFV_TAXFB) then { _amount = _amount * TFV_TAXFB; };
+			_amount = _amount * TFV_TAXFB;
 		};
 	};
 	_return = [];
