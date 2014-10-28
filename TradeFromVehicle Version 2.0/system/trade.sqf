@@ -14,6 +14,17 @@ _startingPos = if (TFV_VEHICLE != objNull) then {getPos TFV_VEHICLE} else {0};
 _validWeapons = [];
 _validMagazines = [];
 
+_tooFar=false;
+if (TFV_VEHICLE != objNull) then {
+	if (_object == "vehicle") then {
+		if ((player distance TFV_VEHICLE) > 50) exitWith {_toofar=true;};
+	};
+};
+
+if(_tooFar) exitWith {
+	TFV_INWORK = false; systemChat "You're too far from your vehicle.";
+};
+
 switch (_object) do {
     case "vehicle": {
 	    _startingCargoCount = ((count([TFV_VEHICLE] call TFV_vehicleGetWeaponCargo)) + (count([TFV_VEHICLE] call TFV_vehicleGetMagazineCargo)));
